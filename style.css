@@ -228,15 +228,19 @@ ul {
 .first-color {
     color: #ac78c2;
 }
-.fifth-color {
-    color: #b5bd68;
-}
 .second-color {
     color: #c5c8c6;
 }
 .third-color {
     color: #5888ca;
 }
+.fourth-color {
+	color: #f0c674;
+}
+.fifth-color {
+    color: #b5bd68;
+}
+
 ul {
     list-style-type: circle;
 }
