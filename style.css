@@ -425,6 +425,12 @@ form .send-btn:hover{
     font-size: 175%;
     text-align: center;
 }
+#msg{
+    color: var(--bg-color);
+    /* display: block; */
+    display: flex;
+    justify-content: center;
+}
 /* footer section */
 #footer {
 	height: 6em;
