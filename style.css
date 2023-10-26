@@ -57,12 +57,6 @@ a:hover {
     align-content: center;
 }
 
-.subtitle {
-	letter-spacing: 2px;
-	max-width: 100%;
-	font-size: 175%;
-    margin-left: 22px;
-}
 /* nav */
 #nav {
 	left: 0%;
@@ -267,8 +261,17 @@ ul {
     /* flex-wrap: wrap; */
     align-content: center;
 }
-#project-section {
-    margin: 50px;
+#project-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+    margin-top: 20px;
+}
+.subtitle {
+	letter-spacing: 3px;
+	max-width: 100%;
+	font-size: 175%;
+    text-align: center;
 }
 /*
 #button-section {
@@ -355,7 +358,11 @@ ul {
 }
 
 .work-a {
-    margin: 22px;
+    margin: 0.5px;
+    margin-left: 80px;
+}
+.work-a:hover {
+    cursor: pointer;
 }
 
 /* contact section */
